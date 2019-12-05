@@ -73,7 +73,7 @@ getFilmsBetweenYears firstYear lastYear database = [(filmName, director, year, l
 
 
 -- Demo function to test basic functionality
--- (filmName, director, year, likes, dislikes)
+-- (FilmName, Director, Year, Likes, Dislikes)
 testDatabase :: [Film]
 testDatabase = [("Blade Runner", "Ridley Scott", 1982, ["Zoe", "Heidi", "Jo", "Kate", "Emma", "Liz", "Dave"], ["Sam", "Olga", "Tim"]),
 
